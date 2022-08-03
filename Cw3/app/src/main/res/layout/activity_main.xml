@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marble_by_heyhan_1024x693"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CalcMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Total"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="350dp"
+        android:fontFamily="@font/amarante"
+        android:text="Calculator"
+        android:textColor="#686766"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="113dp"
+        android:fontFamily="@font/amarante"
+        android:text="Total"
+        android:textColor="#686766"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/FirstNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="418dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Number"
+        android:textColor="#686766" />
+
+    <EditText
+        android:id="@+id/SecondNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="334dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Second Number"
+        android:textColor="#686766" />
+
+    <Button
+        android:id="@+id/PressWontBite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="224dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/FactNoCap"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="298dp"
+        android:layout_marginBottom="5dp"
+        android:text="أندرويد اقوى مسار"
+        android:textStyle="bold" />
+</RelativeLayout>
